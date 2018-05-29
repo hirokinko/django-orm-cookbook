@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../singleton.rst:2
+msgid "How to ensure that only one object can be created?"
+msgstr ""
+
+#: ../../singleton.rst:4
+msgid ""
+"Sometimes you want to ensure that only one record can be created for a "
+"model. This is commonly required as application configuration store, or "
+"as a locking mechanism to access shared resources."
+msgstr ""
+
+#: ../../singleton.rst:6
+msgid "Let us convert our :code:`Origin` model to be singleton."
+msgstr ""
+
+#: ../../singleton.rst:18
+msgid ""
+"What did we do? We overrode the :code:`save` method, and set the "
+":code:`pk` to an existing value. This ensures that when :code:`create` is"
+" called and any object exists, an :code:`IntegrityError` is raised."
+msgstr ""
+

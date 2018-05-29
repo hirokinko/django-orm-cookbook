@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../multiple_objects.rst:2
+msgid "How to create multiple objects in one shot?"
+msgstr ""
+
+#: ../../multiple_objects.rst:4
+msgid ""
+"There are conditions when we want to save multiple objects in one go. Say"
+" we want to add multiple categories at once and we don't want to make "
+"many queries to the database. We can use :code:`bulk_create` for creating"
+" multiple objects in one shot."
+msgstr ""
+
+#: ../../multiple_objects.rst:7
+msgid "Here is an example."
+msgstr ""
+
+#: ../../multiple_objects.rst:22
+msgid ":code:`bulk_create` takes a list of unsaved objects."
+msgstr ""
+

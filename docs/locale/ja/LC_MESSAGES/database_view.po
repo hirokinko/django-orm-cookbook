@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../database_view.rst:2
+msgid "How to add a model for a database view?"
+msgstr ""
+
+#: ../../database_view.rst:4
+msgid ""
+"A database view is a searchable object in a database that is defined by a"
+" query.  Though a view doesn’t store data, some refer to a views as "
+"“virtual tables,” you can query a view like you can a table.  A view can "
+"combine data from two or more table, using joins, and also just contain a"
+" subset of information.  This makes them convenient to abstract, or hide,"
+" complicated queries."
+msgstr ""
+
+#: ../../database_view.rst:6
+msgid "In our SqliteStuio we can see 26 tables and no views."
+msgstr ""
+
+#: ../../database_view.rst:10
+msgid "Lets create a simple view. ::"
+msgstr ""
+
+#: ../../database_view.rst:15
+msgid "After the view is created, we can see 26 tables and 1 view."
+msgstr ""
+
+#: ../../database_view.rst:19
+msgid ""
+"We can create its related model in our app, by :code:`managed = False` "
+"and :code:`db_table=\"temp_user\"` ::"
+msgstr ""
+
+#: ../../database_view.rst:37
+msgid ""
+"For view having union operation refer to : "
+"http://books.agiliq.com/projects/django-admin-"
+"cookbook/en/latest/database_view.html?highlight=view"
+msgstr ""
+

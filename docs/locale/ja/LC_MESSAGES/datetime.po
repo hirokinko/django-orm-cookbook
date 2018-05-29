@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../datetime.rst:2
+msgid "How to convert string to datetime and store in database?"
+msgstr ""
+
+#: ../../datetime.rst:4
+msgid ""
+"We can convert a date-string and store it in the database using django in"
+" many ways. Few of them are discussed below. Lets say we have a date-"
+"string as \"2018-03-11\" we can not directly store it to our date field, "
+"so we can use some dateparser or python library for it. ::"
+msgstr ""
+

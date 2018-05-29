@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../aggregation.rst:2
+msgid "How to group records in Django ORM?"
+msgstr ""
+
+#: ../../aggregation.rst:4
+msgid ""
+"Grouping of records in Django ORM can be done using aggregation functions"
+" like :code:`Max`, :code:`Min`, :code:`Avg`, :code:`Sum`. Django queries "
+"help to create, retrieve, update and delete objects. But sometimes we "
+"need to get aggregated values from the objects. We can get them by "
+"example shown below ::"
+msgstr ""
+

@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../signals.rst:2
+msgid "What signals are raised by Django during object creation or update?"
+msgstr ""
+
+#: ../../signals.rst:4
+msgid ""
+"Django provides signals which allows hooking into a model objects "
+"creation and deletion lifecycle. The signals provided by Django are"
+msgstr ""
+
+#: ../../signals.rst:6
+msgid ":code:`pre_init`"
+msgstr ""
+
+#: ../../signals.rst:7
+msgid ":code:`post_init`"
+msgstr ""
+
+#: ../../signals.rst:8
+msgid ":code:`pre_save`"
+msgstr ""
+
+#: ../../signals.rst:9
+msgid ":code:`post_save`"
+msgstr ""
+
+#: ../../signals.rst:10
+msgid ":code:`pre_delete`"
+msgstr ""
+
+#: ../../signals.rst:11
+msgid ":code:`post_delete`"
+msgstr ""
+
+#: ../../signals.rst:14
+msgid ""
+"Among these, the most commonly used signals are :code:`pre_save` and "
+":code:`post_save`. We will look into them in detail."
+msgstr ""
+
+#: ../../signals.rst:17
+msgid "Signals vs overriding .save"
+msgstr ""
+
+#: ../../signals.rst:19
+msgid ""
+"Since signals can be used for similar effects as overriding "
+":code:`.save`, which one to use is a frequent source of confusion. Here "
+"is when you should use which."
+msgstr ""
+
+#: ../../signals.rst:21
+msgid ""
+"If you want other people, eg. third party apps, to override or customize "
+"the object :code:`save` behaviour, you should raise your own signals"
+msgstr ""
+
+#: ../../signals.rst:22
+msgid ""
+"If you are hooking into the :code:`save` behavior of an app you do not "
+"control, you should hook into the :code:`post_save` or :code:`pre_save`"
+msgstr ""
+
+#: ../../signals.rst:23
+msgid ""
+"If you are customizing the save behaviour of apps you control, you should"
+" override :code:`save`."
+msgstr ""
+
+#: ../../signals.rst:25
+msgid ""
+"Lets take an example of a :code:`UserToken` model. This a class used for "
+"providing authentication and should get created whenever a :code:`User` "
+"is created."
+msgstr ""
+

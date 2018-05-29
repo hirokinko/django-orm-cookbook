@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../table_name.rst:2
+msgid "How to specify the table name for a model?"
+msgstr ""
+
+#: ../../table_name.rst:5
+msgid ""
+"To save you time, Django automatically derives the name of the database "
+"table from the name of your model class and the app that contains it. A "
+"model’s database table name is constructed by joining the model’s “app "
+"label” – the name you used in manage.py startapp – to the model’s class "
+"name, with an underscore between them."
+msgstr ""
+
+#: ../../table_name.rst:9
+msgid ""
+"We have two apps in our demo application i.e., :code:`entities` and "
+":code:`events` so all the models in them will have app names as the "
+"prefixes followed by `_` then the model name."
+msgstr ""
+
+#: ../../table_name.rst:13
+msgid "For renaming them we cab use :code:`db_table` parameter ::"
+msgstr ""
+

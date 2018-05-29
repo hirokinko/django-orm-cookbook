@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../func_expressions.rst:2
+msgid "How to use arbitrary database functions in querysets?"
+msgstr ""
+
+#: ../../func_expressions.rst:4
+msgid ""
+"Django comes with functions like :code:`Lower`, :code:`Coalesce` and "
+":code:`Max`, but it can't support all database functions, expecially ones"
+" which are database specific."
+msgstr ""
+
+#: ../../func_expressions.rst:6
+msgid ""
+"Django provides :code:`Func` which allows using arbitrary database "
+"functions, even if Django doesn't provide them."
+msgstr ""
+
+#: ../../func_expressions.rst:9
+msgid ""
+"Postgres has :code:`fuzzystrmatch`, which provides several functions to "
+"determine similarities. Install the extension in your postgres DB with "
+":code:`create extension fuzzystrmatch`"
+msgstr ""
+
+#: ../../func_expressions.rst:11
+msgid ""
+"We will use the :code:`levenshtein` function. Lets first create some Hero"
+" objects."
+msgstr ""
+
+#: ../../func_expressions.rst:21
+msgid ""
+"We want to find out the :code:`Hero` objects which have :code:`name` "
+"similar to Zeus. You can do"
+msgstr ""
+
+#: ../../func_expressions.rst:29
+#, python-format
+msgid ""
+"The :code:`like_zeus=Func(F('name'), function='levenshtein', "
+"template=\"%(function)s(%(expressions)s, 'Zeus')\")` took two arguments "
+"which allowed the database representation, viz, :code:`function` and "
+":code:`template`. If you need to reuse the function, you can define a "
+"class like this."
+msgstr ""
+
+#: ../../func_expressions.rst:37
+msgid ""
+"And then use "
+":code:`Hero.objects.annotate(like_zeus=LevenshteinLikeZeus(F(\"name\")))`"
+msgstr ""
+
+#: ../../func_expressions.rst:39
+msgid "You can then filter on this annotated field like this."
+msgstr ""
+

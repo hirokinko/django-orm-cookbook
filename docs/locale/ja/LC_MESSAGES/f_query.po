@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../f_query.rst:2
+msgid ""
+"How to filter a queryset with criteria based on comparing their field "
+"values"
+msgstr ""
+
+#: ../../f_query.rst:4
+msgid ""
+"Django ORM makes it easy to filter based on fixed values. To get all "
+":code:`User` objects with :code:`first_name` starting with :code:`'R'`, "
+"you can do :code:`User.objects.filter(name_startswith='R')`."
+msgstr ""
+
+#: ../../f_query.rst:8
+msgid ""
+"What if you want to compare the first_name and last name? You can use the"
+" :code:`F` object. Create some users first."
+msgstr ""
+
+#: ../../f_query.rst:19
+msgid "Now you can find the users where :code:`first_name==last_name`"
+msgstr ""
+
+#: ../../f_query.rst:26
+msgid ""
+":code:`F` also works with calculated field using annotate. What if we "
+"wanted users whose first and last names have same letter?"
+msgstr ""
+
+#: ../../f_query.rst:28
+msgid ""
+"You can set the first letter from a string using "
+":code:`Substr(\"first_name\", 1, 1)`, so we do."
+msgstr ""
+
+#: ../../f_query.rst:38
+msgid ""
+":code:`F` can also be used with :code:`__gt`, :code:`__lt` and other "
+"expressions."
+msgstr ""
+

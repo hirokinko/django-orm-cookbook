@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../introduction.rst:2
+msgid "Introduction"
+msgstr ""
+
+#: ../../introduction.rst:4
+msgid ""
+"Django ORM is one of the key pillars of Django. It provides abstractions "
+"to work with databases, in a mostly database agnostic way."
+msgstr ""
+
+#: ../../introduction.rst:6
+msgid ""
+"Django ORM combines ease of use with powerful abstractions. It keeps "
+"\"Simple things easy and hard things possible\"."
+msgstr ""
+
+#: ../../introduction.rst:8
+msgid ""
+"In this book, we will learn Django ORM by doing things with it. We will "
+"ask about 50 questions about Django ORM, and get a deeper understanding "
+"of the ORM."
+msgstr ""
+
+#: ../../introduction.rst:12
+msgid "How to read this book."
+msgstr ""
+
+#: ../../introduction.rst:14
+msgid ""
+"Each chapter in the book is question. The questions are grouped in "
+"related chapters. You can read the book in eaither of two ways."
+msgstr ""
+
+#: ../../introduction.rst:16
+msgid ""
+"If you are looking to get answers to specific questions, read that "
+"chapter and other chapters in that group."
+msgstr ""
+
+#: ../../introduction.rst:17
+msgid ""
+"If you are need to get a deeper understanding of Django ORM and models "
+"layer, read the chapters from start to the end."
+msgstr ""
+

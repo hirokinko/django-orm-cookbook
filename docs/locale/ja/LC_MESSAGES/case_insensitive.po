@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../case_insensitive.rst:2
+msgid "How to order a queryset in case insensitive manner?"
+msgstr ""
+
+#: ../../case_insensitive.rst:6
+msgid ""
+"Whenever we try to do :code:`order_by` with some string value, the "
+"ordering happens alphabetically and w.r.t case. Like"
+msgstr ""
+
+#: ../../case_insensitive.rst:13
+msgid ""
+"If we want to order queryset in case insensitive manner, we can do like "
+"this . ::"
+msgstr ""
+
+#: ../../case_insensitive.rst:21
+msgid ""
+"Alternatively, you can annotate with :code:`Lower` and then order on "
+"annotated field."
+msgstr ""
+

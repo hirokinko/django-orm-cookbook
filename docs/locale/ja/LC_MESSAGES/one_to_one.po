@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../one_to_one.rst:2
+msgid "How to model one to one relationships?"
+msgstr ""
+
+#: ../../one_to_one.rst:4
+msgid ""
+"One-to-one relationships occur when there is exactly one record in the "
+"first table that corresponds to one record in the related table. Here we "
+"have an example where we know that each individual can have only one "
+"Biological parents i.e., Mother and Father. We already have auth user "
+"model with us, we will add a new model UserParent as described below. ::"
+msgstr ""
+
+#: ../../one_to_one.rst:30
+msgid ""
+"The on_delete method is used to tell Django what to do with model "
+"instances that depend on the model instance you delete. (e.g. a "
+"ForeignKey relationship). The on_delete=models.CASCADE tells Django to "
+"cascade the deleting effect i.e. continue deleting the dependent models "
+"as well. ::"
+msgstr ""
+
+#: ../../one_to_one.rst:34
+msgid "Will also delete the related record of :code:`UserParent`."
+msgstr ""
+

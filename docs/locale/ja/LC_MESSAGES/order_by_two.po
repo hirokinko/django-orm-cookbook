@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../order_by_two.rst:2
+msgid "How to order on two fields"
+msgstr ""
+
+#: ../../order_by_two.rst:4
+msgid ""
+":code:`order_by` on querysets can take one or more attribute names, "
+"allowing you to order on two or more fields."
+msgstr ""
+
+#: ../../order_by_two.rst:6
+msgid "..code-block:: ipython"
+msgstr ""
+
+#: ../../order_by_two.rst:8
+msgid "In [5]: from django.contrib.auth.models import User"
+msgstr ""
+
+#: ../../order_by_two.rst:10
+msgid ""
+"In [6]: User.objects.all().order_by(\"is_active\", \"-last_login\", "
+"\"first_name\") Out[6]: <QuerySet [<User: Guido>, <User: shabda>, <User: "
+"Tim>]>"
+msgstr ""
+

@@ -144,3 +144,6 @@ latex_documents = [
      'Agiliq', 'manual'),
 ]
 
+# Internationalization settings(need `sphinx-intl` package)
+locale_dirs = ['locale/']
+gettext_compact = False

@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../existing_database.rst:2
+msgid "How to convert existing databases to Django models?"
+msgstr ""
+
+#: ../../existing_database.rst:4
+msgid ""
+"Django comes with a utility called :code:`inspectdb` that can create "
+"models by introspecting an existing database. You can view the output by "
+"running this command ::"
+msgstr ""
+
+#: ../../existing_database.rst:8
+msgid ""
+"Befor running this you will have to configure your database in the "
+":code:`settings.py` file. The result will be a file containing a model "
+"for each table. You may want to save that file ::"
+msgstr ""
+
+#: ../../existing_database.rst:12
+msgid ""
+"The output file will be saved to your current directory. Move that file "
+"to the correct app and you have a good starting point for further "
+"customizations."
+msgstr ""
+

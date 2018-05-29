@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../update_denormalized_fields.rst:2
+msgid "How to update denormalized fields in other models on save?"
+msgstr ""
+
+#: ../../update_denormalized_fields.rst:4
+msgid "You have models like this."
+msgstr ""
+
+#: ../../update_denormalized_fields.rst:29
+msgid ""
+"You need the :code:`hero_count` and :code:`villain_count`, to be updated "
+"when new objects are created."
+msgstr ""
+
+#: ../../update_denormalized_fields.rst:31
+msgid "You can do something like this"
+msgstr ""
+
+#: ../../update_denormalized_fields.rst:53
+msgid ""
+"Note how we did not use :code:`self.category.hero_count += 1`, as "
+":code:`update` will do a DB update."
+msgstr ""
+
+#: ../../update_denormalized_fields.rst:55
+msgid "The alternative method is using `signals`. You can do it like this."
+msgstr ""
+
+#: ../../update_denormalized_fields.rst:76
+msgid "Signals vs Overriding :code:`.save`"
+msgstr ""
+
+#: ../../update_denormalized_fields.rst:79
+msgid ""
+"Since either of signals of :code:`.save` can be used for the save "
+"behviour, when should you use which one? I follow a simple rule."
+msgstr ""
+
+#: ../../update_denormalized_fields.rst:81
+msgid "If your fields depend on a model you control, override :code:`.save`"
+msgstr ""
+
+#: ../../update_denormalized_fields.rst:82
+msgid ""
+"If your fields depend on a model from a 3rd party app, which you do no "
+"control, use signals."
+msgstr ""
+

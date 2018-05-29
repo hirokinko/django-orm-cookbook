@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../one_to_many.rst:2
+msgid "How to model one to many relationships?"
+msgstr ""
+
+#: ../../one_to_many.rst:4
+msgid ""
+"In relational databases, a one-to-many relationship occurs when a parent "
+"record in one table can potentially reference several child records in "
+"another table. In a one-to-many relationship, the parent is not required "
+"to have child records; therefore, the one-to-many relationship allows "
+"zero child records, a single child record or multiple child records. To "
+"define a many-to-one relationship, use `ForeignKey`.::"
+msgstr ""
+
+#: ../../one_to_many.rst:30
+msgid ""
+"If you try to assign an object before saving it you will encounter a "
+"ValueError ::"
+msgstr ""
+
+#: ../../one_to_many.rst:41
+msgid ""
+"The above queryset shows User u1 with multiple :code:`Articles`. Hence "
+"One to Many."
+msgstr ""
+

@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../subquery.rst:2
+msgid "How to do a subquery expression in Django?"
+msgstr ""
+
+#: ../../subquery.rst:4
+msgid ""
+"Django allows using SQL subqueries. Let's start with something simple, We"
+" have a :code:`UserParent` model which has :code:`OnetoOne` relation with"
+" auth user. We will find all the :code:`UserParent` which have a "
+":code:`UserParent`."
+msgstr ""
+
+#: ../../subquery.rst:14
+msgid ""
+"Now for something more complex. For each :code:`Category`, we want to "
+"find the most benevolent :code:`Hero`."
+msgstr ""
+
+#: ../../subquery.rst:16
+msgid "The models look something like this."
+msgstr ""
+
+#: ../../subquery.rst:35
+msgid "You can find the most benevolent Hero like this"
+msgstr ""
+
+#: ../../subquery.rst:48
+msgid "If you look at the generated sql, you will see"
+msgstr ""
+
+#: ../../subquery.rst:63
+msgid "Let's break down the queryset logic. The first part is"
+msgstr ""
+
+#: ../../subquery.rst:71
+msgid ""
+"We are ordering the :code:`Hero` object by :code:`benevolence_factor` in "
+"DESC order, and using :code:`category=OuterRef(\"pk\")` to declare that "
+"we will be using it in a subquery."
+msgstr ""
+
+#: ../../subquery.rst:74
+msgid ""
+"Then we annotate with "
+":code:`most_benevolent_hero=Subquery(hero_qs.values('name')[:1])`, to get"
+" use the subquery with a :code:`Category` queryset. The "
+":code:`hero_qs.values('name')[:1]` part picks up the first name from "
+"subquery."
+msgstr ""
+

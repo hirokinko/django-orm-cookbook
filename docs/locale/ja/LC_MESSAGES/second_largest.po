@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../second_largest.rst:2
+msgid "How to find second largest record using Django ORM ?"
+msgstr ""
+
+#: ../../second_largest.rst:4
+msgid ""
+"You would across situations when you want to find second highest user "
+"depending on their age or salary."
+msgstr ""
+
+#: ../../second_largest.rst:6
+msgid ""
+"Though the ORM gives the flexibility of finding :code:`first()`, "
+":code:`last()` item from the queryset but not nth item. You can do it "
+"using the slice operator."
+msgstr ""
+
+#: ../../second_largest.rst:10
+msgid "We can find Nth records from the query by using slice operator."
+msgstr ""
+
+#: ../../second_largest.rst:22
+msgid ""
+":code:`User.objects.order_by('-last_login')[2]` only pulls up the "
+"required object from db using :code:`LIMIT ... OFFSET`. If you look at "
+"the generated sql, you would see something like this."
+msgstr ""
+

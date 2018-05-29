@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../truncate.rst:2
+msgid "How to perform truncate like operation using Django ORM?"
+msgstr ""
+
+#: ../../truncate.rst:4
+msgid ""
+"Truncate statement in SQL is meant to empty a table for future use. "
+"Though Django doesn't provide a builtin to truncate a table, but still "
+"similar result can be achived using :code:`delete()` method. For example:"
+msgstr ""
+
+#: ../../truncate.rst:17
+msgid ""
+"This works, but this uses :code:`DELETE FROM ...` SQL statement. If you "
+"have a large number of records, this can be quite slow. You can add a "
+":code:`classmethod` to :code:`Category` if you want to enable "
+":code:`truncate`."
+msgstr ""
+
+#: ../../truncate.rst:30
+msgid "Then you can call :code:`Category.truncate()` to a real database truncate."
+msgstr ""
+

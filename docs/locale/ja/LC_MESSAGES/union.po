@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../union.rst:2
+msgid "How to do union of two querysets from same or different models?"
+msgstr ""
+
+#: ../../union.rst:4
+msgid ""
+"The UNION operator is used to combine the result-set of two or more "
+"querysets. The querysets can be from the same or from different models. "
+"When they querysets are from different models, the fields and their "
+"datatypes should match."
+msgstr ""
+
+#: ../../union.rst:7
+msgid ""
+"Let's continue with our :code:`auth_user` model and generate 2 querysets "
+"to perform union operation"
+msgstr ""
+
+#: ../../union.rst:22
+msgid "Now try this"
+msgstr ""
+
+#: ../../union.rst:33
+msgid ""
+"The union operation can be performed only with the querysets having same "
+"fields and the datatypes. Hence our last union operation encountered "
+"error. You can do a union on two models as long as they have same fields "
+"or same subset of fields."
+msgstr ""
+
+#: ../../union.rst:35
+msgid ""
+"Since :code:`Hero` and :code:`Villain` both have the :code:`name` and "
+":code:`gender`, we can use :code:`values_list` to limit the selected "
+"fields then do a union."
+msgstr ""
+
+#: ../../union.rst:48
+msgid ""
+"This would give you all :code:`Hero` and :code:`Villain` objects with "
+"their name and gender."
+msgstr ""
+

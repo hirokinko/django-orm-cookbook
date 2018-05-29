@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../slugfield.rst:2
+msgid "How to use slug field with django for more readability?"
+msgstr ""
+
+#: ../../slugfield.rst:4
+msgid ""
+"Slug is a part of a URL which identifies a particular page on a website "
+"in a form readable by users. For making it work django offers us a "
+"slugfield. It can be implimented as under. We already had a model "
+":code:`Article` we will be adding slugfield to it to make it user "
+"readable. ::"
+msgstr ""
+
+#: ../../slugfield.rst:27
+msgid "Slug is useful because:"
+msgstr ""
+
+#: ../../slugfield.rst
+msgid "it's human friendly (eg. /blog/ instead of /1/)."
+msgstr ""
+
+#: ../../slugfield.rst
+msgid "it's good SEO to create consistency in title, heading and URL."
+msgstr ""
+

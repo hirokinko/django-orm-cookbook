@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../column_name.rst:2
+msgid "How to specify the column name for model field?"
+msgstr ""
+
+#: ../../column_name.rst:4
+msgid ""
+"Naming of a column in the model can be achieved py passing a "
+":code:`db_column` parameter with some name. If we don't pass this "
+"parameter django creates a column with the field name which we give. ::"
+msgstr ""
+
+#: ../../column_name.rst:15
+msgid ""
+"Above we can :code:`db_column` has higher priority over :code:`field "
+"name`. First column is named as column1 but not as a."
+msgstr ""
+

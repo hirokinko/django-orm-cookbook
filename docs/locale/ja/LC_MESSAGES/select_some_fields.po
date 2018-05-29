@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../select_some_fields.rst:2
+msgid "How to select some fields only in a queryset?"
+msgstr ""
+
+#: ../../select_some_fields.rst:6
+msgid ""
+"The :code:`auth_user` model has a number of fields in it. But sometimes, "
+"you do not need to use all the fields. In such situations, we can query "
+"only desired fields."
+msgstr ""
+
+#: ../../select_some_fields.rst:8
+msgid "Django provides two ways to do this"
+msgstr ""
+
+#: ../../select_some_fields.rst:10
+msgid "`values` and `values_list` methods on queryset."
+msgstr ""
+
+#: ../../select_some_fields.rst:11
+msgid "`only_method`"
+msgstr ""
+
+#: ../../select_some_fields.rst:13
+msgid ""
+"Say, we want to get :code:`first_name` and :code:`last_name` of all the "
+"users whose name starts with **R**. You do not want the fetch the other "
+"fields to reduce the work the DB has to do."
+msgstr ""
+
+#: ../../select_some_fields.rst:22
+msgid ""
+"You can verify the generated sql using :code:`str(queryset.query)`, which"
+" gives."
+msgstr ""
+
+#: ../../select_some_fields.rst:29
+msgid "The output will be list of dictionaries."
+msgstr ""
+
+#: ../../select_some_fields.rst:31
+msgid "Alternatively, you can do"
+msgstr ""
+
+#: ../../select_some_fields.rst:40
+msgid ":code:`str(queryset.query)`, gives us"
+msgstr ""
+
+#: ../../select_some_fields.rst:47
+msgid ""
+"The only difference between :code:`only` and :code:`values` is "
+":code:`only` also fetches the :code:`id`."
+msgstr ""
+

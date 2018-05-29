@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../many_to_many.rst:2
+msgid "How to model many to many relationships?"
+msgstr ""
+
+#: ../../many_to_many.rst:4
+msgid ""
+"A many-to-many relationship refers to a relationship between tables in a "
+"database when a parent row in one table contains several child rows in "
+"the second table, and vice versa."
+msgstr ""
+
+#: ../../many_to_many.rst:6
+msgid ""
+"Just to make it more interactive, we will talk about a twitter app. By "
+"just using few fields and ManyToMany field we can make a simple twitter "
+"app."
+msgstr ""
+
+#: ../../many_to_many.rst:8
+msgid ""
+"We basically have 3 basic things in Twitter, tweets, followers, "
+"favourite/unfavourite."
+msgstr ""
+
+#: ../../many_to_many.rst:10
+msgid ""
+"We have two models to make everything work. We are inheriting django's "
+"auth_user.::"
+msgstr ""
+
+#: ../../many_to_many.rst:24
+msgid "What will the above model be able to do ? ::"
+msgstr ""
+
+#: ../../many_to_many.rst:31
+msgid "Few operations using ManyToManyfield which can be done are: ::"
+msgstr ""
+
+#: ../../many_to_many.rst:44
+msgid ""
+"We have created few tweets and few users, that didn't involve any use of "
+"M2M field so far. Lets continue linking them in next step. ::"
+msgstr ""
+
+#: ../../many_to_many.rst:62
+msgid ""
+"Working example can be found in the repo: "
+"https://github.com/yashrastogi16/simpletwitter"
+msgstr ""
+

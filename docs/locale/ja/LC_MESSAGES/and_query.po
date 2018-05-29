@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../and_query.rst:2
+msgid "How to do AND queries in Django ORM?"
+msgstr ""
+
+#: ../../and_query.rst:6
+msgid ""
+"If you are using :code:`django.contrib.auth`, you will have a table "
+"called :code:`auth_user`. It will have fields as :code:`username`, "
+":code:`first_name`, :code:`last_name` and more."
+msgstr ""
+
+#: ../../and_query.rst:9
+msgid ""
+"You would frequently need to want to perform AND operation, to find "
+"querysets which match multiple criteria."
+msgstr ""
+
+#: ../../and_query.rst:11
+msgid ""
+"Say you want to find users with :code:`firstname` starting with 'R' AND "
+":code:`last_name` starting with 'D'."
+msgstr ""
+
+#: ../../and_query.rst:13
+msgid "Django provides three options."
+msgstr ""
+
+#: ../../and_query.rst:15
+msgid ":code:`filter(<condition_1>, <condition_2>)`"
+msgstr ""
+
+#: ../../and_query.rst:16
+msgid ":code:`queryset_1 & queryset_2`"
+msgstr ""
+
+#: ../../and_query.rst:17
+msgid ":code:`filter(Q(<condition_1>) & Q(<condition_2>))`"
+msgstr ""
+
+#: ../../and_query.rst:21
+msgid "The query in detail"
+msgstr ""
+
+#: ../../and_query.rst:24
+msgid "Our SQL query for the above condition will look something like"
+msgstr ""
+
+#: ../../and_query.rst:32
+msgid ""
+"The default way to combine multiple conditions in :code:`filter` is "
+":code:`AND`, so you can just do."
+msgstr ""
+
+#: ../../and_query.rst:41
+msgid "Alternatively, you can explicitly use the `&` operator on querysets."
+msgstr ""
+
+#: ../../and_query.rst:51
+msgid "For complete customisability, you can use the :code:`Q` objects."
+msgstr ""
+
+#: ../../and_query.rst:64
+msgid "You can look at the generated query and verify that they are all same."
+msgstr ""
+

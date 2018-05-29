@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../null_vs_blank.rst:2
+msgid "What is the difference between :code:`null=True` and :code:`blank=True`?"
+msgstr ""
+
+#: ../../null_vs_blank.rst:4
+msgid ""
+"The default value of both :code:`null` and :code:`blank` is "
+":code:`False`. Both of these values work at field level i.e., whether we "
+"want to keep a field null or blank."
+msgstr ""
+
+#: ../../null_vs_blank.rst:6
+msgid ""
+":code:`null=True` will set the field's value to NULL i.e., no data. It is"
+" basically for the databases column value. ::"
+msgstr ""
+
+#: ../../null_vs_blank.rst:10
+msgid ""
+":code:`blank=True` determines whether the field will be required in "
+"forms. This includes the admin and your own custom forms. ::"
+msgstr ""
+
+#: ../../null_vs_blank.rst:14
+msgid ""
+":code:`null=True` :code:`blank=True` This means that the field is "
+"optional in all circumstances. ::"
+msgstr ""
+
+#: ../../null_vs_blank.rst:19
+msgid ""
+"Also there is a special case, when you need to accept NULL values for a "
+":code:`BooleanField`, use :code:`NullBooleanField`."
+msgstr ""
+

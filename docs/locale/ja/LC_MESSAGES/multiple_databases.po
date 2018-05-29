@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Agiliq
+# This file is distributed under the same license as the Django ORM Cookbook
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django ORM Cookbook 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-29 11:36+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../multiple_databases.rst:2
+msgid "How to add multiple databases to the django application ?"
+msgstr ""
+
+#: ../../multiple_databases.rst:4
+msgid ""
+"The configuration of database related stuff is mostly done in "
+":code:`settings.py` file. So to add multiple database to our django "
+"project we need add them in :code:`DATABASES` dictionary. ::"
+msgstr ""
+
+#: ../../multiple_databases.rst:29
+msgid ""
+"With multiple databases it will be good to talk about :code:`Database "
+"Router`. The default routing scheme ensures that if a database isn’t "
+"specified, all queries fall back to the default database. :code:`Database"
+" Router` defaults to :code:`[]`. ::"
+msgstr ""
+
+#: ../../multiple_databases.rst:71
+msgid "Respective models would be modified as ::"
+msgstr ""
+
+#: ../../multiple_databases.rst:85
+msgid "Few helpful commands while working with multiple databases. ::"
+msgstr ""
+
